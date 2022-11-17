@@ -4,15 +4,15 @@ export default function Training() {
   return (
     <>
       <div className="container-fluid my-2">
-        <div className="shadow shadow-lg">
+        <div className="shadow-lg">
           <div className="shadow ">
             <h4 className="p-3 fw-bolder border border-5">Training Period</h4>
           </div>
           <div className="bg-light my-1 p-3">
             <h5 className="fw-bolder shadow p-3 border border-5">Topics Covered :</h5>
             <div className="row p-3 m-1 shadow-lg">
-              <div>
-                <ol className="fw-bolder" style={{lineHeight:2}}>
+              <div className="border border-5 ">
+                <ol className="fw-bolder " style={{lineHeight:2}}>
                   <li>
                     React Hooks (useState, useEffect, useRef, useReducer,
                     useContext)
